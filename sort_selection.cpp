@@ -50,7 +50,7 @@ void selection_sort(int list[], int length) {
 
         // Swap the found minimum element with the first element
         if (min_idx != i) {
-            swap(&list[min_idx], &list[i]);
+            swap(list[min_idx], list[i]);
             print_array(list, length);
         }
     }

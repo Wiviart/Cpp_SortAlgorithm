@@ -5,7 +5,6 @@ using namespace std;
 void    print_array(int list[], int length);
 void           swap(int* a, int* b);
 
-void insertion_sort(int list[], int length);
 void    bubble_sort(int list[], int length);
 
 int main() {
